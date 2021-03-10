@@ -61,7 +61,7 @@ const Hero = () => {
           <Button>Get Started</Button>
         </ColumnLeft>
         <ColumnRight>
-        <img src="./images"/>
+        <img src="../images/marsTrans1.jpeg"/>
         </ColumnRight>
       </Container>
     </Section>
