@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import PlanetOne from "../images/"
 
 const Section = styled.section`
   height: 100%;
@@ -61,7 +60,9 @@ const Hero = () => {
           <p>Journey to the unknown</p>
           <Button>Get Started</Button>
         </ColumnLeft>
-        <ColumnRight>Filler</ColumnRight>
+        <ColumnRight>
+        <img src="./images"/>
+        </ColumnRight>
       </Container>
     </Section>
   );
