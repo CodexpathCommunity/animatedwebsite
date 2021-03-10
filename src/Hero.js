@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import MarsOne from "../images/transmarss2.png"
+import MarsTwo from "../images/transmarss2.png"
+import MarsThree from "../images/transmarss3.png"
+import MarsFour from "../images/transmarss4.png"
 
 const Section = styled.section`
   height: 100%;
@@ -51,6 +55,8 @@ const Button = styled.div`
 `;
 const ColumnRight = styled.div``;
 
+const Image = styled.img``
+
 const Hero = () => {
   return (
     <Section>
@@ -61,7 +67,7 @@ const Hero = () => {
           <Button>Get Started</Button>
         </ColumnLeft>
         <ColumnRight>
-        <img src="../images/marsTrans1.jpeg"/>
+        <Image src={MarsOne} alt="transparent photo of Mars"/>
         </ColumnRight>
       </Container>
     </Section>
